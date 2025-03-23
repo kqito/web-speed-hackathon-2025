@@ -17,6 +17,8 @@ interface Props {
   children: ReactNode;
 }
 
+console.log('hoge');
+
 export const Layout = ({ children }: Props) => {
   useSubscribePointer();
 
