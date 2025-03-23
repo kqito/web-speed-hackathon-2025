@@ -18,6 +18,7 @@ interface Props {
 }
 
 export const Layout = ({ children }: Props) => {
+  console.log('Layout');
   useSubscribePointer();
 
   const navigation = useNavigation();
